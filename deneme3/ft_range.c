@@ -16,7 +16,7 @@ int	*ft_range(int start, int end)
 	return range;
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main(int argc, char **argv)
 {
 	int start = atoi(argv[1]);
@@ -30,3 +30,4 @@ int main(int argc, char **argv)
 	while(i<rangesize)
 		printf("%d,",range[i++]);
 }
+*/
