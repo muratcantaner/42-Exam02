@@ -66,8 +66,8 @@ int main(int argc, char **argv)
 		}
 
 		ft_itoa(primesum);
-
-	}
-
 	write(1,"\n",1);
+	}
+	else
+		write(1,"0\n",2);
 }
