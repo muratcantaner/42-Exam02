@@ -7,8 +7,8 @@ void print_factors(int num)
 	int firstDivision = 1;
 	if(num>-1)
 	{
-		if(num < 2)
-			printf("%d",num);
+		if(num == 1)
+			printf("1");
 		
 		else
 		{
