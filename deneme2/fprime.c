@@ -41,5 +41,5 @@ int main(int argc, char **argv)
 		print_factors(num);
 	}
 	
-	write(1,"\n",1);
+	printf("\n");
 }
