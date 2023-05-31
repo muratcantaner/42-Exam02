@@ -14,3 +14,5 @@ int main (int argc, char **argv)
 {
 	printf("%d",is_power_of_2(atoi(argv[1])));
 }
+
+
