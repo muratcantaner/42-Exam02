@@ -45,8 +45,10 @@ char * ft_itoa(int nbr)
 	return str;
 }
 
+/*
 #include <stdio.h>
 int main(int argc, char **argv)
 {
 	printf("%s",ft_itoa(atoi(argv[1])));
 }
+*/
