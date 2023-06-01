@@ -7,6 +7,8 @@ int includes(const char *s, const char c)
 	{
 		if(c == s[i])
 			return 1;
+
+		i++;
 	}
 	return 0;
 }
