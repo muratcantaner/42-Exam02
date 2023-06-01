@@ -1,4 +1,6 @@
-int includes(const char c, const char* s)
+//#include <stddef.h>
+
+int includes(const char *s, const char c)
 {
 	size_t i = 0;
 	while(s[i])
@@ -18,3 +20,6 @@ size_t ft_strcspn(const char *s, const char *reject)
 	
 	return i;
 }
+
+//int main()
+//{}
