@@ -22,6 +22,7 @@ int	*ft_rrange(int start, int end)
 	}
 	return rrange;
 }
+
 /*
 #include <stdio.h>
 
